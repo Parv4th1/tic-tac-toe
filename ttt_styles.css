@@ -24,7 +24,7 @@ body
     justify-content: center;
     font-family: 'Times New Roman', Times, serif;
 }
-form
+section
 {
     display: flex;
     flex-direction: column;
