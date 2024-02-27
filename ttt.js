@@ -19,7 +19,7 @@ function play_ttt()
         alert("O has won!");
         document.getElementById("win-text").innerText = "O Wins!";
     }
-    if((c1==play2 && c2==play2 && c3==play2)||(c4==play2 && c5==play2 && c6==play2)||(c7==play2 && c8==play2 && c9==play2)
+    else if((c1==play2 && c2==play2 && c3==play2)||(c4==play2 && c5==play2 && c6==play2)||(c7==play2 && c8==play2 && c9==play2)
         ||(c1==play2 && c4==play2 && c7==play2)||(c2==play2 && c5==play2 && c8==play2)||(c3==play2 && c6==play2 && c9==play2)
         ||(c1==play2 && c5==play2 && c9==play2)||(c3==play2 && c5==play2 && c7==play2))
     {
@@ -27,7 +27,7 @@ function play_ttt()
         alert("X has won!");
         document.getElementById("win-text").innerText = "X Wins!";
     }
-    if(c1!="" &&c2!=""&&c3!=""&&c4!=""&&c5!=""&&c6!=""&&c7!=""&&c8!=""&&c9!="")
+    else if(c1!="" &&c2!=""&&c3!=""&&c4!=""&&c5!=""&&c6!=""&&c7!=""&&c8!=""&&c9!="")
     {
         alert("It's a tie")
         document.getElementById("win-text").innerText = "It's a tie!"
