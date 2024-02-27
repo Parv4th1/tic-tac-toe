@@ -1,5 +1,48 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 input
 {
     border-radius: 0;
     border: 1px solid #000;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    font-size: large;
+}
+input:disabled
+{
+    background-color: azure;
+}
+body
+{
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    line-height: 1.6;
+}
+.grid
+{
+    padding: 30px;
+}
+.win-result
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+button
+{
+    margin-top: 10px;
 }
