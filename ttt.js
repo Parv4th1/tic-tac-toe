@@ -52,6 +52,8 @@ function fill_cell(cell)
 }
 function reset()
 {
+    flag = 0;
+    document.getElementById("win-text").innerText = "";
     document.getElementById("c1").value = document.getElementById("c2").value = document.getElementById("c3").value = document.getElementById("c4").value = document.getElementById("c5").value = document.getElementById("c6").value = document.getElementById("c7").value = document.getElementById("c8").value = document.getElementById("c9").value = "";
     document.getElementById("c1").disabled = document.getElementById("c2").disabled = document.getElementById("c3").disabled = document.getElementById("c4").disabled = document.getElementById("c5").disabled = document.getElementById("c6").disabled = document.getElementById("c7").disabled = document.getElementById("c8").disabled = document.getElementById("c9").disabled = false;
 }
